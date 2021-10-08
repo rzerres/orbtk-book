@@ -22,3 +22,6 @@ doc
 
 // modules
 wiki
+
+// java script artefacts
+*.js
