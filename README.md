@@ -40,26 +40,42 @@ combination with the add-on tools mdbook-linkchecker and
 mdbook-mermaid. With the linkchecker we are able to asure, that
 the used links inside the markdown source can resolve to valid
 targets. mkbook-mermaid is a preprocessor for mdbook to add
-mermaid.js support. We do use it to create graphs that visiulize
+mermaid.js support. We do use it to create graphs that visualize
 some process flows.
 
-[crates.io]: https://crates.io/crates/cargo-readme
-
 #### Multilingual version of mdBook
+
 The OrbTk book aims to make translations as flawless as
-possible. We are using v0.4.12 that will do the job. There is a
+possible. We are using v0.4.15 that will do the job. There is a
 patch available that adds the needed salt to organize a book as a
-multilingual structure: All sources stored in a single hirachical
-code tree. This work isn't finished yet, but good enough to make
-use of this branch for our productive needs. Thank you [Nutomic
-and Ruin0x11][mdbook localization].
+multilingual structure: All sources stored in a single hierachical
+code tree. This work isn't finished yet, but a [PR][mdbook_pr_1306] is send
+upstream.  We are able to make use of this branch for our
+productive needs. Thank you [Ruin0x11][mdbook localization].
+
+Go ahead and install that mdBook version like this:
+
+```console
+TMPDIR=<your_temporary_directory>
+mkdir -p $TMPDIR; cd $TMPDIR
+git clone https://github.com/Ruin0x11/mdBook.git
+cd mdBook
+git checkout localization
+cargo update
+cargo install --path .
+```
 
 You can force the installation of a given version number
 with:
 
 ```rust
-console $ cargo install mdbook --vers 0.4.12 mdbook-linkchecker mdbook-mermaid
+console $ cargo install mdbook --vers 0.4.15 mdbook-linkchecker mdbook-mermaid
 ```
+
+[mdBook]: https://github.com/rust-lang-nursery/mdBook
+[mdBook localization]: https://github.com/Ruin0x11/mdBook/tree/localization
+[rust-mdbook]: https://github.com/rust-lang/rust/blob/master/src/tools/rustbook/Cargo.toml
+[mdbook_pr_1306]: https://github.com/rust-lang/mdBook/pull/1306
 
 #### Cargo handled README
 
@@ -67,6 +83,7 @@ We do make uses of the crate [cargo-readme]. It resolves rust `doc
 comments` to generate the README.md file you are reading now. Install the create
 with the following command if you want to update or regenerate this README yourself.
 
+[crates.io]: https://crates.io/crates/mdbook
 [cargo-readme]: https://github.com/livioribeiro/cargo-readme
 [orbtk_planet]: https://github.com/redox-os/orbtk-book/blob/main/src/img/orbtk_planet.svg
 
@@ -81,10 +98,6 @@ README.md. Change into the document-root and type:
 $ cargo readme > README.md
 ```
 
-[mdBook]: https://github.com/rust-lang-nursery/mdBook
-[mdBook localization]: https://github.com/Nutomic/mdBook/tree/localization
-[rust-mdbook]: https://github.com/rust-lang/rust/blob/master/src/tools/rustbook/Cargo.toml
-
 ### Building
 
 #### Building the book
@@ -93,7 +106,7 @@ To build the book with the default language (here: 'en'), change
 into OrbTk-books root directory and type:
 
 ```console
-$ mdbook build --dest-dir book/en
+$ mdbook build --language en --dest-dir book/en
 ```
 
 The rendered HTML output will be placed underneath the
@@ -186,4 +199,4 @@ This work is licensed under a [Creative Common License 4.0][License-CC_BY]
 
 ![Creative Common Logo][Logo-CC_BY]
 
-© 2021 Ralf Zerres
+© 2021-2022 Ralf Zerres
