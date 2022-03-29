@@ -1,17 +1,17 @@
-# Zusammenfassung
+# Summary
 
-[Das Orbtk Widget Toolkit](title-page.md)
-[Vorwort](foreword.md)
-[Einführung](ch00-00-introduction.md)
+[Kit de herramientas OrbTk](title-page.md)
+[Prólogo](foreword.md)
+[Introducción](ch00-00-introduction.md)
 
-## Erste Schritte
+# Cómo empezar
 
-- [Erste Schritte](ch01-00-getting-started.md)
-	- [Die Installation](ch01-01-installation.md)
-	- [Hallo OrbTk!](ch01-02-hello-orbtk.md)
-	- [Die Bestandteile](ch01-03-ingredients.md)
+- [Cómo empezar](ch01-00-getting-started.md)
+	- [Instalación](ch01-01-installation.md)
+	- [¡Hola OrbTk!](ch01-02-hello-orbtk.md)
+	- [Los componentes](ch01-03-ingredients.md)
 
-- [OrbTk Die Structur](ch02-00-workspaces.md)
+- [OrbTk La Estructura](ch02-00-workspaces.md)
 	- [Workspace: Orbtk](ch02-01-workspace-orbtk.md)
 	- [Workspace: Orbtk Core](ch02-02-workspace-orbtk-core.md)
 	- [Workspace: Orbtk Client](ch02-03-workspace-orbtk-client.md)
@@ -20,7 +20,7 @@
 	- [Workspace: Process macros](ch02-06-proc-macros.md)
 	- [Workspace: Utilities](ch02-07-utils.md)
 
-- [OrbTk Widget Templates](ch03-00-widget-templates.md)
+- [OrbTk Plantillas de widgets](ch03-00-widget-templates.md)
 	- [Template: Button](ch03-01-widget-button.md)
 	- [Template: Canvas](ch03-02-widget-canvas.md)
 	- [Template: CheckBox](ch03-03-widget-check-box.md)
@@ -49,15 +49,15 @@
 	- [Template: Togglebutton](ch03-26-widget-togglebutton.md)
 	- [Template: Window](ch03-27-widget-window.md)
 
-- [OrbTk Beispiele](ch09-00-orbtk-examples.md)
-	- [Hallo OrbTk!](ch09-01-hello-orbtk.md)
+- [OrbTk Examples](ch09-00-orbtk-examples.md)
+	- [Hello OrbTk!](ch09-01-hello-orbtk.md)
 	- [Draft Message handling]()
 	- [Draft Table view]()
 	- [Draft Popups]()
 	- [Showcase](ch09-02-showcase.md)
 
-- [Anhang](appendix-00.md)
-	- [A - Schlüsselworte](appendix-01-keywords.md)
-	- [B - Operatoren und Symbole](appendix-02-operators.md)
-	- [C - Abwerfbare Traits](appendix-03-derivable-traits.md)
-	- [D - Übersetzungen des Buchs](appendix-04-translation.md)
+- [Appendix](appendix-00.md)
+	- [A - Palabras clave](appendix-01-keywords.md)
+	- [B - Operadores y símbolos](appendix-02-operators.md)
+	- [C - Rasgos derivados](appendix-03-derivable-traits.md)
+	- [D - Translations of the Book](appendix-04-translation.md)

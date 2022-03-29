@@ -1,17 +1,17 @@
-# Zusammenfassung
+# Comment commencer
 
-[Das Orbtk Widget Toolkit](title-page.md)
-[Vorwort](foreword.md)
-[Einführung](ch00-00-introduction.md)
+[La Orbtk Widget Toolkit](title-page.md)
+[Foreword](foreword.md)
+[Introduction](ch00-00-introduction.md)
 
-## Erste Schritte
+# Getting started
 
-- [Erste Schritte](ch01-00-getting-started.md)
-	- [Die Installation](ch01-01-installation.md)
-	- [Hallo OrbTk!](ch01-02-hello-orbtk.md)
-	- [Die Bestandteile](ch01-03-ingredients.md)
+- [Premiers pas](ch01-00-getting-started.md)
+	- [Instalation](ch01-01-installation.md)
+	- [Bonjour OrbTk!](ch01-02-hello-orbtk.md)
+	- [Les composants](ch01-03-ingredients.md)
 
-- [OrbTk Die Structur](ch02-00-workspaces.md)
+- [OrbTk La structure](ch02-00-workspaces.md)
 	- [Workspace: Orbtk](ch02-01-workspace-orbtk.md)
 	- [Workspace: Orbtk Core](ch02-02-workspace-orbtk-core.md)
 	- [Workspace: Orbtk Client](ch02-03-workspace-orbtk-client.md)
@@ -49,15 +49,15 @@
 	- [Template: Togglebutton](ch03-26-widget-togglebutton.md)
 	- [Template: Window](ch03-27-widget-window.md)
 
-- [OrbTk Beispiele](ch09-00-orbtk-examples.md)
-	- [Hallo OrbTk!](ch09-01-hello-orbtk.md)
+- [OrbTk Examples](ch09-00-orbtk-examples.md)
+	- [Bonjour OrbTk!](ch09-01-hello-orbtk.md)
 	- [Draft Message handling]()
 	- [Draft Table view]()
 	- [Draft Popups]()
 	- [Showcase](ch09-02-showcase.md)
 
-- [Anhang](appendix-00.md)
-	- [A - Schlüsselworte](appendix-01-keywords.md)
-	- [B - Operatoren und Symbole](appendix-02-operators.md)
-	- [C - Abwerfbare Traits](appendix-03-derivable-traits.md)
-	- [D - Übersetzungen des Buchs](appendix-04-translation.md)
+- [Appendix](appendix-00.md)
+	- [A - Les mots-clés](appendix-01-keywords.md)
+	- [B - Opérateurs et symboles](appendix-02-operators.md)
+	- [C - Traits dérivables](appendix-03-derivable-traits.md)
+	- [D - Traductions du livre](appendix-04-translation.md)
