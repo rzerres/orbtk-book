@@ -98,7 +98,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Download archived binaries (orbtk_book_binaries)
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: orbtk_book_binaries
         path: ~/.cargo/bin
@@ -149,7 +149,7 @@ jobs:
         args: --release --all-features
 
     - name: Download archived cargo artifac
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: orbtk_book_binaries
         path: ~/.cargo/bin
@@ -184,7 +184,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Download archived binaries (orbtk_book_binaries)
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: orbtk_book_binaries
         path: ~/.cargo/bin
@@ -262,7 +262,7 @@ jobs:
       run: gpg --list-secret-keys
 
     - name: Download rendered html files (orbtk_book_pages)
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: orbtk_book_pages_${{ matrix.language }}
         path: ${{ github.workspace }}/${{ env.ORBTK_BOOK_DEST_DIR }}
